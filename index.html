@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>IronSkydive</title>
 </head>
 <body>
-    <nav>
+    <nav class="nav-bar">
         <ul>
-            <li><a href="">Day Structure</a></li>
-            <li><a href="">Team</a></li>
-            <li><a href="">Schedule</a></li>
+            <li><a href="#structure">Day Structure</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#schedule">Schedule</a></li>
         </ul>
     </nav>
     <header>
         <h1><img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" alt="IronSkydive Logo"> IronSkydive</h1>
         <h2>Let the trip begin</h2>
         <aside>
-            <em>"The best experience of our lives"</em>
+            <q><em>The best experience of our lives</em></q>
             <p>Ariel Quiñones & Gonzalo Manrique, Ironhack Founders</p>
         </aside>
     </header>
-    <section>
+    <section id="general-information" class="text link-btn">
         <article>
             <h3>Hello!</h3>
             <p>Welcome to IronSkydive, the best adventure you will ever have.</p>
@@ -35,7 +36,7 @@
             <a href="#">Register</a>
         </article>
     </section>
-    <section>
+    <section id="structure" class="service-box">
         <h3>How do we structure the day?</h3>
         <div>
             <article>
@@ -60,28 +61,26 @@
             </article>
         </div>
     </section>
-    <section>
+    <section id="team" class="section-text member-name">
         <h3>Team</h3>
         <p>Our team collectively has 75 years of experience. Odds are, when you jump out of the plane with these professionals, you won't go splat.</p>
+        <hr>
         <div>
             <article>
-                <p><strong>Harold Rothstein</strong></p>
-                <hr>
+                <h4><strong>Harold Rothstein</strong></h4>
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg" alt="Harold Rothstein">
             </article>
             <article>
-                <p><strong>Susan Phillips</strong></p>
-                <hr>
+                <h4><strong>Susan Phillips</strong></h4>
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg" alt="Susan Phillips">
             </article>
             <article>
-                <p><strong>Taylor Roberts</strong></p>
-                <hr>
+                <h4><strong>Taylor Roberts</strong></h4>
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg" alt="Taylor Roberts">
             </article>
         </div>
     </section>
-    <section>
+    <section id="schedule">
         <h3>Schedule</h3>
         <h3>Schedule a Time Slot</h3>
         <table>
@@ -125,15 +124,15 @@
             </tbody>  
         </table>
     </section>
-    <footer>
+    <footer class="dark-background footer">
         <section>
             <h5>Contact Information</h5>
             <address>IronSkydive <br>33 Rue la Fayette, 75009<br> Paris, France <br>+33 (0) 619 193 088</address>
             <h5>Follow Us</h5>
             <ul>
-                <li>Twitter</li>
-                <li>Facebook</li>
-                <li>Instagram</li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
             </ul>
         </section>
     </footer>
